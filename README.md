@@ -13,7 +13,7 @@
 
 **Output:**
 
-[![Output](https://i.ibb.co/c3Vmmyc/example-3.jpg)](https://ibb.co/vqRttcx)
+[![Output](https://i.ibb.co/fQvKnCR/example-3.jpg)](https://ibb.co/jHRxWLK)
  
 
 **You can change the nesting depth of the search for emails on the site by changing the `maxDepth` property of the `params` object in the app.js file**
