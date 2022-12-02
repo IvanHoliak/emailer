@@ -17,4 +17,5 @@
  
 
 **You can change the nesting depth of the search for emails on the site by changing the `maxDepth` property of the `params` object in the app.js file**
+
 [![Example](https://i.ibb.co/MSqnZ1z/example-2.jpg)](https://ibb.co/NCwxtN0)
