@@ -1,0 +1,19 @@
+{
+    "name": "emailer",
+    "preferGlobal": true,
+    "bin": "./app.js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+    },
+    "type": "module",
+    "author": "Ivan H.",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.12",
+        "commander": "^9.4.1",
+        "got": "^12.5.3",
+        "listr": "^0.14.3"
+    }
+}
