@@ -4,6 +4,7 @@ import { Command } from "commander";
 import Listr from "listr";
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+import fs from "fs";
 
 const params = {
     maxDepth: 3,
@@ -99,10 +100,13 @@ async function fetch(url, depth = 0){
 
         if(depth > params.maxDepth) return params.result;
         
-        const {data, status} = await axios.get(url, {
+        const {data, status, headers} = await axios.get(url, {
             retry: 3, 
             retryDelay: 1000,
-            timeout: 3000
+            timeout: 3000,
+            headers: { 
+                "Accept-Encoding": "application/json",
+            }
         });
 
         const parseResult = await parser(data);
