@@ -105,7 +105,7 @@ async function fetch(url, depth = 0){
             retryDelay: 1000,
             timeout: 3000,
             headers: { 
-                "Accept-Encoding": "application/json",
+                "Accept-Encoding": "text/html", //application/json
             }
         });
 
