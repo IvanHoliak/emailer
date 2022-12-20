@@ -8,7 +8,7 @@
 #### Options:
 | Option      | Description |
 | --------------- | --------------- |
-| -d, --depth <number>| Maximum search depth. (**Default value: 3**)|
+| -d, --depth \<number\>| Maximum search depth. (**Default value: 3**)|
 
 **Input:** 
 
