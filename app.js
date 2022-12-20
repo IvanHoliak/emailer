@@ -9,8 +9,7 @@ const params = {
     hrefOrigin: null,
     routes: [],
     result: [],
-};
-
+}
 const commander = new Command();
 
 commander

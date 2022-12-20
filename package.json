@@ -7,7 +7,8 @@
     "main": "app.js",
     "scripts": {
         "lint": "eslint ./",
-        "lint:fix": "eslint ./ --fix --color"
+        "lint:fix": "eslint ./ --fix --color",
+        "prepare": "husky install"
     },
     "type": "module",
     "author": "Ivan H.",
