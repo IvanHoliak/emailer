@@ -13,6 +13,7 @@
 **Input:** 
 
  [![Input](https://i.ibb.co/YDG1J4Z/example-1.jpg)](https://ibb.co/PT8PJsQ)
+ 
 **Output:**
 
  [![Output](https://i.ibb.co/c3Vmmyc/example-3.jpg)](https://ibb.co/vqRttcx)
