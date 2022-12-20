@@ -4,12 +4,13 @@ import { Command } from "commander";
 import Listr from "listr";
 import axios from "axios";
 import * as cheerio from "cheerio";
+
 const params = {
     maxDepth: null,
     hrefOrigin: null,
     routes: [],
     result: [],
-}
+};
 const commander = new Command();
 
 commander
