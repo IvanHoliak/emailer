@@ -1,0 +1,20 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": ["airbnb/base"],
+    "rules": {
+        "quotes": ["warn", "double"],
+        "no-console": "off",
+        "linebreak-style": "off",
+        "indent": ["warn", 4],
+        "no-use-before-define": ["error", {
+            "functions": false
+        }],
+        "no-param-reassign": "off",
+        "semi": ["error", "always"],
+        "func-names": "off",
+        "arrow-parens": ["error", "as-needed"]
+    }
+}
